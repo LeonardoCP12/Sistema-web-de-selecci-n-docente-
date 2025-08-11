@@ -1,0 +1,384 @@
+[
+  {
+    "model": "common.curso",
+    "pk": 1,
+    "fields": {
+      "nombreCurso": "INTRODUCCION A LA COMPUTACION",
+      "codigoCurso": "BIC01",
+      "creditosCurso": 2,
+      "facultad": "Facultad de Ingeniería Industrial y de Sistemas"
+    }
+  },
+  {
+    "model": "common.curso",
+    "pk": 2,
+    "fields": {
+      "nombreCurso": "CALCULO DIFERENCIAL",
+      "codigoCurso": "BMA01",
+      "creditosCurso": 5,
+      "facultad": "Facultad de Ingeniería Industrial y de Sistemas"
+    }
+  },
+  {
+    "model": "common.curso",
+    "pk": 3,
+    "fields": {
+      "nombreCurso": "QUIMICA I",
+      "codigoCurso": "BQU01",
+      "creditosCurso": 5,
+      "facultad": "Facultad de Ingeniería Industrial y de Sistemas"
+    }
+  },
+  {
+    "model": "common.curso",
+    "pk": 4,
+    "fields": {
+      "nombreCurso": "REDACCION Y COMUNICACION",
+      "codigoCurso": "BRC01",
+      "creditosCurso": 2,
+      "facultad": "Facultad de Ingeniería Industrial y de Sistemas"
+    }
+  },
+  {
+    "model": "common.curso",
+    "pk": 5,
+    "fields": {
+      "nombreCurso": "GEOMETRIA ANALITICA",
+      "codigoCurso": "FB101",
+      "creditosCurso": 3,
+      "facultad": "Facultad de Ingeniería Industrial y de Sistemas"
+    }
+  },
+  {
+    "model": "common.curso",
+    "pk": 6,
+    "fields": {
+      "nombreCurso": "INTRODUCCION AL PENSAMIENTO Y A LA INGENIERIA DE SISTEMAS",
+      "codigoCurso": "SI101",
+      "creditosCurso": 3,
+      "facultad": "Facultad de Ingeniería Industrial y de Sistemas"
+    }
+  },
+    {
+    "model": "common.curso",
+    "pk": 7,
+    "fields": {
+      "nombreCurso": "CREATIVIDAD 1",
+      "codigoCurso": "EPA101",
+      "creditosCurso": 5,
+      "facultad": "Facultad de Arquitectura, Urbanismo y Artes"
+    }
+  },
+  {
+    "model": "common.curso",
+    "pk": 8,
+    "fields": {
+      "nombreCurso": "GEOGRAFIA TERRITORIAL",
+      "codigoCurso": "EPA201",
+      "creditosCurso": 3,
+      "facultad": "Facultad de Arquitectura, Urbanismo y Artes"
+    }
+  },
+  {
+    "model": "common.curso",
+    "pk": 9,
+    "fields": {
+      "nombreCurso": "CULTURA CONTEMPORANEA",
+      "codigoCurso": "EPA701",
+      "creditosCurso": 3,
+      "facultad": "Facultad de Arquitectura, Urbanismo y Artes"
+    }
+  },
+  {
+    "model": "common.curso",
+    "pk": 10,
+    "fields": {
+      "nombreCurso": "COMUNICACION",
+      "codigoCurso": "EPA702",
+      "creditosCurso": 3,
+      "facultad": "Facultad de Arquitectura, Urbanismo y Artes"
+    }
+  },
+  {
+    "model": "common.curso",
+    "pk": 11,
+    "fields": {
+      "nombreCurso": "ALGEBRA LINEAL",
+      "codigoCurso": "BMA03",
+      "creditosCurso": 4,
+      "facultad": "Facultad de Arquitectura, Urbanismo y Artes"
+    }
+  },
+  {
+    "model": "common.curso",
+    "pk": 12,
+    "fields": {
+      "nombreCurso": "CALCULO DIFERENCIAL",
+      "codigoCurso": "BMA01",
+      "creditosCurso": 5,
+      "facultad": "Facultad de Arquitectura, Urbanismo y Artes"
+    }
+  },
+  {
+    "model": "common.curso",
+    "pk": 13,
+    "fields": {
+      "nombreCurso": "REALIDAD NACIONAL, CONSTITUCION Y DERECHOS HUMANOS",
+      "codigoCurso": "BRN01",
+      "creditosCurso": 3,
+      "facultad": "Facultad de Arquitectura, Urbanismo y Artes"
+    }
+  },
+  {
+    "model": "common.seccion",
+    "pk": 1,
+    "fields": {
+      "curso": 1,
+      "codigoSeccion": "U",
+      "estadoSeccion": "activo"
+    }
+  },
+  {
+    "model": "common.seccion",
+    "pk": 2,
+    "fields": {
+      "curso": 1,
+      "codigoSeccion": "V",
+      "estadoSeccion": "activo"
+    }
+  },
+  {
+    "model": "common.seccion",
+    "pk": 3,
+    "fields": {
+      "curso": 2,
+      "codigoSeccion": "U",
+      "estadoSeccion": "activo"
+    }
+  },
+  {
+    "model": "common.seccion",
+    "pk": 4,
+    "fields": {
+      "curso": 2,
+      "codigoSeccion": "V",
+      "estadoSeccion": "activo"
+    }
+  },
+  {
+    "model": "common.seccion",
+    "pk": 5,
+    "fields": {
+      "curso": 2,
+      "codigoSeccion": "W",
+      "estadoSeccion": "activo"
+    }
+  },
+  {
+    "model": "common.seccion",
+    "pk": 6,
+    "fields": {
+      "curso": 3,
+      "codigoSeccion": "U",
+      "estadoSeccion": "activo"
+    }
+  },
+  {
+    "model": "common.seccion",
+    "pk": 7,
+    "fields": {
+      "curso": 3,
+      "codigoSeccion": "V",
+      "estadoSeccion": "activo"
+    }
+  },
+  {
+    "model": "common.seccion",
+    "pk": 8,
+    "fields": {
+      "curso": 4,
+      "codigoSeccion": "U",
+      "estadoSeccion": "activo"
+    }
+  },
+  {
+    "model": "common.seccion",
+    "pk": 9,
+    "fields": {
+      "curso": 4,
+      "codigoSeccion": "V",
+      "estadoSeccion": "activo"
+    }
+  },
+  {
+    "model": "common.seccion",
+    "pk": 10,
+    "fields": {
+      "curso": 5,
+      "codigoSeccion": "U",
+      "estadoSeccion": "activo"
+    }
+  },
+  {
+    "model": "common.seccion",
+    "pk": 11,
+    "fields": {
+      "curso": 5,
+      "codigoSeccion": "V",
+      "estadoSeccion": "activo"
+    }
+  },
+  {
+    "model": "common.seccion",
+    "pk": 12,
+    "fields": {
+      "curso": 5,
+      "codigoSeccion": "W",
+      "estadoSeccion": "activo"
+    }
+  },
+  {
+    "model": "common.seccion",
+    "pk": 13,
+    "fields": {
+      "curso": 6,
+      "codigoSeccion": "U",
+      "estadoSeccion": "activo"
+    }
+  },
+  {
+    "model": "common.seccion",
+    "pk": 14,
+    "fields": {
+      "curso": 6,
+      "codigoSeccion": "V",
+      "estadoSeccion": "activo"
+    }
+  },
+  {
+    "model": "common.seccion",
+    "pk": 15,
+    "fields": {
+      "curso": 7,
+      "codigoSeccion": "A",
+      "estadoSeccion": "activo"
+    }
+  },
+  {
+    "model": "common.seccion",
+    "pk": 16,
+    "fields": {
+      "curso": 7,
+      "codigoSeccion": "B",
+      "estadoSeccion": "activo"
+    }
+  },
+  {
+    "model": "common.seccion",
+    "pk": 17,
+    "fields": {
+      "curso": 8,
+      "codigoSeccion": "A",
+      "estadoSeccion": "activo"
+    }
+  },
+  {
+    "model": "common.seccion",
+    "pk": 18,
+    "fields": {
+      "curso": 8,
+      "codigoSeccion": "B",
+      "estadoSeccion": "activo"
+    }
+  },
+  {
+    "model": "common.seccion",
+    "pk": 19,
+    "fields": {
+      "curso": 9,
+      "codigoSeccion": "A",
+      "estadoSeccion": "activo"
+    }
+  },
+  {
+    "model": "common.seccion",
+    "pk": 20,
+    "fields": {
+      "curso": 9,
+      "codigoSeccion": "B",
+      "estadoSeccion": "activo"
+    }
+  },
+  {
+    "model": "common.seccion",
+    "pk": 21,
+    "fields": {
+      "curso": 10,
+      "codigoSeccion": "A",
+      "estadoSeccion": "activo"
+    }
+  },
+  {
+    "model": "common.seccion",
+    "pk": 22,
+    "fields": {
+      "curso": 10,
+      "codigoSeccion": "B",
+      "estadoSeccion": "activo"
+    }
+  },
+  {
+    "model": "common.seccion",
+    "pk": 23,
+    "fields": {
+      "curso": 11,
+      "codigoSeccion": "A",
+      "estadoSeccion": "activo"
+    }
+  },
+  {
+    "model": "common.seccion",
+    "pk": 24,
+    "fields": {
+      "curso": 11,
+      "codigoSeccion": "B",
+      "estadoSeccion": "activo"
+    }
+  },
+  {
+    "model": "common.seccion",
+    "pk": 25,
+    "fields": {
+      "curso": 12,
+      "codigoSeccion": "A",
+      "estadoSeccion": "activo"
+    }
+  },
+  {
+    "model": "common.seccion",
+    "pk": 26,
+    "fields": {
+      "curso": 12,
+      "codigoSeccion": "B",
+      "estadoSeccion": "activo"
+    }
+  },
+  {
+    "model": "common.seccion",
+    "pk": 27,
+    "fields": {
+      "curso": 13,
+      "codigoSeccion": "A",
+      "estadoSeccion": "activo"
+    }
+  },
+  {
+    "model": "common.seccion",
+    "pk": 28,
+    "fields": {
+      "curso": 13,
+      "codigoSeccion": "B",
+      "estadoSeccion": "activo"
+    }
+  }
+]
